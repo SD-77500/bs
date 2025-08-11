@@ -1,0 +1,13 @@
+
+
+@import "tailwindcss";
+
+@theme {
+  --animate-p-spin: p-spin 10s linear infinite;
+}
+
+@keyframes p-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
